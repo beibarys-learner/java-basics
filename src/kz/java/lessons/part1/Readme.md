@@ -86,3 +86,15 @@ In this case, type of class is `Park` and `p` is a variable name.
 `new Park()` is actually creating the object.
 `Park()` is a constructor, which a special method that creates a new object.
 
+Sometimes, code blocks are inside or outside methods:
+1. If inside a method, these are run when the method is called.
+2. If code blocks are outside a method, these are called instance initializers.
+
+## Order of initialization
+1. Field and instance initializer blocks run in the order in which they appear in the file
+2. The constructor runs after all fields and instance initializer blocks have run
+
+# Homework
+1. Carefully study the example in `constructor` file.
+2. Go and run the `Chick.java` in `kz.java.lessons.part1.order` package
+
