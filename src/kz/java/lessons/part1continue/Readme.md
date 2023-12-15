@@ -23,3 +23,41 @@ Each primitive type has a wrapper class, which is an object type that correspond
 
 ### Task 2
 Go and study example in DemoWrapper and DemoText
+
+## Declaring variables
+
+You can declare multiple variables in a statement.
+
+```
+void sand(){
+    String s1, s2;
+    String s3 = "yes", s4 = "no";
+}
+```
+In above case, `s3` and `s4` are declared and initialized. Other two variables remain undeclared.
+
+Below, Java doesn't allow to declare two different types in the same statement.
+```
+double d1, doouble d2;  // is not allowed 
+```
+## Initializing variables 
+
+Local variable type inference:
+
+```
+public class DemoVar {
+    public void what(){
+        var name = "Hello";
+        var size = 7;
+    }
+}
+```
+
+It doesn't work for instance variables.
+```
+public class DemoVar {
+    var name = "Hello";
+}
+```
+
+In Java, `var` is still a specific type defined at compile time. Javascript allows take any type at runtime.
