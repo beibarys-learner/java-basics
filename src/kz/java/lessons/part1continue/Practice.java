@@ -12,5 +12,7 @@ public class Practice {
         double reallyUgly = 1____2;
         System.out.println("reallyUgly = " + reallyUgly);
 
+        Integer primitive1 = Integer.valueOf(1232333);
+
     }
 }

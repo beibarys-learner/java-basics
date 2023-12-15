@@ -13,8 +13,13 @@ is that `short` is _signed_ so it splits its range across the positive and negat
 
 Alternatively, char is unsigned its range is strictly positive, including 0.
 
-## Task
+### Task 1
 
 Answer the question: what is the difference between primitive and reference data types?
 
 ## Wrapper Classes
+
+Each primitive type has a wrapper class, which is an object type that corresponds to the primitive.
+
+### Task 2
+Go and study example in DemoWrapper and DemoText
