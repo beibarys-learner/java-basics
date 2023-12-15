@@ -71,3 +71,18 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out
 Run the DemoPackage file and see the result. Java puts classes in packages, that are logical grouping of classes.
 
 `import java.util.Random // tells you where to find Random`
+
+`import java.util.*` is a shortcut to import all classes in a package and is a wildcard that matches all classes in the package.
+
+Also, `import java.lang.System` means that we refer to `System` and it is automatically imported.
+
+## Creating objects
+To create an instance of class, here's an example:
+
+```
+Park p = new Park();
+```
+In this case, type of class is `Park` and `p` is a variable name.
+`new Park()` is actually creating the object.
+`Park()` is a constructor, which a special method that creates a new object.
+
