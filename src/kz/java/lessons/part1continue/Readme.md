@@ -61,3 +61,17 @@ public class DemoVar {
 ```
 
 In Java, `var` is still a specific type defined at compile time. Javascript allows take any type at runtime.
+
+## Reviewing the scope
+
+1. Local variables - In scope from declaration to the end of the block
+2. Method parameters - In scope for the duration of method
+3. Instance variables - in scope from declaration until the object is eligible for garbage collection.
+4. Class variables - in scope from declaration until the program ends
+
+## Destroying the objects
+
+All objects in Java are stored in program memory's heap.
+
+Garbage collection - process of automatically freeing memory on the heap by deleting objects that are no longer reachable in your program.
+
